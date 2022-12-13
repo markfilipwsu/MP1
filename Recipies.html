@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Recipies</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="Recipies.css" media="screen">
+
+    <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
+    <script type="text/javascript" src="js/receipedetails.js"></script>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    
+    
+    <script type="text/javascript" src="data/receipe1.json"></script>
+    <script type="text/javascript" src="data/receipe2.json"></script>
+    <script type="text/javascript" src="data/receipe3.json"></script>
+    <script type="text/javascript" src="data/receipe4.json"></script>
+    <script type="text/javascript" src="data/receipe5.json"></script>
+    <script type="text/javascript" src="data/receipe6.json"></script>
+    <script type="text/javascript" src="data/receipe7.json"></script>
+    <script type="text/javascript" src="data/receipe8.json"></script>
+    <script type="text/javascript" src="data/receipe9.json"></script>
+    <script type="text/javascript" src="data/receipe10.json"></script>
+    <script type="text/javascript" src="data/receipe11.json"></script>
+    <script type="text/javascript" src="data/receipe12.json"></script>
+    <script type="text/javascript" src="data/receipe13.json"></script>
+    <script type="text/javascript" src="data/receipe14.json"></script>
+    <script type="text/javascript" src="data/receipe15.json"></script>
+    <script type="text/javascript" src="data/receipe16.json"></script>
+
+ 
+    <meta name="generator" content="Nicepage 5.1.5, nicepage.com">
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/default-logo.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Recipies">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-5f79"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <a href="Home.html" class="u-image u-logo u-image-1">
+          <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Recipies.html" style="padding: 10px 20px;">Recipies</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Recipies.html">Recipies</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-section-1" id="sec-5240">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-spacing-top u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div id="receipe-image-1" class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-15 u-size-30-md u-image-1" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-layout-cell u-size-15 u-size-30-md u-white u-layout-cell-2">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-2">
+                  <h4 id="receipe-1-title" class="u-align-left-lg u-align-left-xl u-custom-font u-heading-font u-text u-text-1"></h4>
+                  <p id="receipe-1-facts" class="u-align-center-lg u-align-center-xl u-text u-text-2">
+                  </p>
+                  <a id="btn-view-receipe-1" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">View Receipe</a>
+                </div>
+              </div>
+              <div id="receipe-image-2" class="u-align-left u-container-style u-image u-layout-cell u-size-15 u-size-30-md u-image-2" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-white u-layout-cell-4">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-4">
+                  <h4 id="receipe-2-title" class="u-custom-font u-heading-font u-text u-text-3"></h4>
+                  <p id="receipe-2-facts" class="u-text u-text-4">
+                  </p>
+                  <a id="btn-view-receipe-2" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2"> View Receipe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-2" id="carousel_7818">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-spacing-top u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div id="receipe-image-3" class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-15 u-size-30-md u-image-1" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-layout-cell u-size-15 u-size-30-md u-white u-layout-cell-2">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-2">
+                  <h4 id="receipe-3-title" class="u-align-left-lg u-align-left-xl u-custom-font u-heading-font u-text u-text-1"></h4>
+                  <p id="receipe-3-facts" class="u-align-center-lg u-align-center-xl u-text u-text-2">
+                  </p>
+                  <a id="btn-view-receipe-3" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">View Receipe</a>
+                </div>
+              </div>
+              <div id="receipe-image-4" class="u-align-left u-container-style u-image u-layout-cell u-size-15 u-size-30-md u-image-2" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-white u-layout-cell-4">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-4">
+                  <h4 id="receipe-4-title" class="u-custom-font u-heading-font u-text u-text-3"></h4>
+                  <p id="receipe-4-facts" class="u-text u-text-4">
+                  </p>
+                  <a id="btn-view-receipe-4" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2"> View Receipe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-3" id="carousel_e372">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-spacing-top u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div id="receipe-image-5" class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-15 u-size-30-md u-image-1" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-layout-cell u-size-15 u-size-30-md u-white u-layout-cell-2">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-2">
+                  <h4 id="receipe-5-title" class="u-align-left-lg u-align-left-xl u-custom-font u-heading-font u-text u-text-1"></h4>
+                  <p id="receipe-5-facts" class="u-align-center-lg u-align-center-xl u-text u-text-2">
+                  </p>
+                  <a id="btn-view-receipe-5" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">View Receipe</a>
+                </div>
+              </div>
+              <div id="receipe-image-6" class="u-align-left u-container-style u-image u-layout-cell u-size-15 u-size-30-md u-image-2" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-white u-layout-cell-4">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-4">
+                  <h4 id="receipe-6-title" class="u-custom-font u-heading-font u-text u-text-3"></h4>
+                  <p id="receipe-6-facts" class="u-text u-text-4">
+                  </p>
+                  <a id="btn-view-receipe-6" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2"> View Receipe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-4" id="carousel_7244">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-spacing-top u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div id="receipe-image-7" class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-15 u-size-30-md u-image-1" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-layout-cell u-size-15 u-size-30-md u-white u-layout-cell-2">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-2">
+                  <h4 id="receipe-7-title"  class="u-align-left-lg u-align-left-xl u-custom-font u-heading-font u-text u-text-1"></h4>
+                  <p id="receipe-7-facts" class="u-align-center-lg u-align-center-xl u-text u-text-2">
+                  </p>
+                  <a id="btn-view-receipe-7" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">View Receipe</a>
+                </div>
+              </div>
+              <div id="receipe-image-8" class="u-align-left u-container-style u-image u-layout-cell u-size-15 u-size-30-md u-image-2" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-white u-layout-cell-4">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-4">
+                  <h4 id="receipe-8-title" class="u-custom-font u-heading-font u-text u-text-3"></h4>
+                  <p id="receipe-8-facts" class="u-text u-text-4">
+                  </p>
+                  <a id="btn-view-receipe-8" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2"> View Receipe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-5" id="carousel_66f8">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-spacing-top u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div id="receipe-image-9" class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-15 u-size-30-md u-image-1" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-layout-cell u-size-15 u-size-30-md u-white u-layout-cell-2">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-2">
+                  <h4 id="receipe-9-title" class="u-align-left-lg u-align-left-xl u-custom-font u-heading-font u-text u-text-1"></h4>
+                  <p id="receipe-9-facts" class="u-align-center-lg u-align-center-xl u-text u-text-2">
+                  </p>
+                  <a id="btn-view-receipe-9" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">View Receipe</a>
+                </div>
+              </div>
+              <div id="receipe-image-10" class="u-align-left u-container-style u-image u-layout-cell u-size-15 u-size-30-md u-image-2" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-white u-layout-cell-4">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-4">
+                  <h4 id="receipe-10-title" class="u-custom-font u-heading-font u-text u-text-3"></h4>
+                  <p id="receipe-10-facts" class="u-text u-text-4">
+                  </p>
+                  <a id="btn-view-receipe-10" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2"> View Receipe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-6" id="carousel_7d19">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-spacing-top u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div id="receipe-image-11" class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-15 u-size-30-md u-image-1" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-layout-cell u-size-15 u-size-30-md u-white u-layout-cell-2">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-2">
+                  <h4 id="receipe-11-title" class="u-align-left-lg u-align-left-xl u-custom-font u-heading-font u-text u-text-1"></h4>
+                  <p id="receipe-11-facts" class="u-align-center-lg u-align-center-xl u-text u-text-2">
+                  </p>
+                  <a id="btn-view-receipe-11" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">View Receipe</a>
+                </div>
+              </div>
+              <div id="receipe-image-12" class="u-align-left u-container-style u-image u-layout-cell u-size-15 u-size-30-md u-image-2" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-white u-layout-cell-4">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-4">
+                  <h4 id="receipe-12-title" class="u-custom-font u-heading-font u-text u-text-3"></h4>
+                  <p  id="receipe-12-facts" class="u-text u-text-4">
+                  </p>
+                  <a id="btn-view-receipe-12" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2"> View Receipe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-7" id="carousel_d3f0">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-spacing-top u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div id="receipe-image-13" class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-15 u-size-30-md u-image-1" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-layout-cell u-size-15 u-size-30-md u-white u-layout-cell-2">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-2">
+                  <h4 id="receipe-13-title" class="u-align-left-lg u-align-left-xl u-custom-font u-heading-font u-text u-text-1"></h4>
+                  <p id="receipe-13-facts" class="u-align-center-lg u-align-center-xl u-text u-text-2">
+                  </p>
+                  <a id="btn-view-receipe-13" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">View Receipe</a>
+                </div>
+              </div>
+              <div id="receipe-image-14" class="u-align-left u-container-style u-image u-layout-cell u-size-15 u-size-30-md u-image-2" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-white u-layout-cell-4">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-4">
+                  <h4 id="receipe-14-title" class="u-custom-font u-heading-font u-text u-text-3"></h4>
+                  <p id="receipe-14-facts" class="u-text u-text-4">
+                  </p>
+                  <a id="btn-view-receipe-14" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2"> View Receipe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-8" id="carousel_0e10">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-spacing-top u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div id="receipe-image-15" class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-15 u-size-30-md u-image-1" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-layout-cell u-size-15 u-size-30-md u-white u-layout-cell-2">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-2">
+                  <h4 id="receipe-15-title" class="u-align-left-lg u-align-left-xl u-custom-font u-heading-font u-text u-text-1"></h4>
+                  <p id="receipe-15-facts" class="u-align-center-lg u-align-center-xl u-text u-text-2">
+                  </p>
+                  <a id="btn-view-receipe-15" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">View Receipe</a>
+                </div>
+              </div>
+              <div id="receipe-image-16" class="u-align-left u-container-style u-image u-layout-cell u-size-15 u-size-30-md u-image-2" src="">
+                <div class="u-container-layout" src=""></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-white u-layout-cell-4">
+                <div class="u-border-2 u-border-palette-3-base u-container-layout u-container-layout-4">
+                  <h4 id="receipe-16-title" class="u-custom-font u-heading-font u-text u-text-3"></h4>
+                  <p id="receipe-16-facts" class="u-text u-text-4">
+                  </p>
+                  <a id="btn-view-receipe-16" href="#sec-de23" class="u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-dialog-link u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2"> View Receipe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-687b"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Washington State University - Copyright 2022
+          <br>
+          Receipe References  - <a href="https://www.aheadofthyme.com/50-easy-baking-recipes/">Website</a>
+        </p>
+       
+      </div>
+    </footer>
+    
+  <section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-dialog-section-11" id="sec-de23">
+      <div class="u-align-left u-container-style u-dialog u-shape-rectangle u-white u-dialog-1">
+        <div class="u-container-layout u-container-layout-1">
+          <h3 id="modal-title" class="u-text u-text-1"></h3>
+          <h6 class="u-text u-text-default u-text-2">Ingredients:</h6>
+          <ul id="modal-ingredients-list" class="u-text u-text-default u-text-3">
+            
+          </ul>
+          <h6 class="u-text u-text-default u-text-4"><b>Instructions:</b>
+          </h6>
+          <ol id="modal-instructions-list" class="u-text u-text-5">
+            
+          </ol>
+        </div><button class="u-dialog-close-button u-icon u-text-grey-50 u-icon-1">
+        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.806 409.806" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4e2d"></use></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 409.806 409.806" x="0px" y="0px" id="svg-4e2d" style="enable-background:new 0 0 409.806 409.806;"><g><g><path d="M228.929,205.01L404.596,29.343c6.78-6.548,6.968-17.352,0.42-24.132c-6.548-6.78-17.352-6.968-24.132-0.42    c-0.142,0.137-0.282,0.277-0.42,0.42L204.796,180.878L29.129,5.21c-6.78-6.548-17.584-6.36-24.132,0.42    c-6.388,6.614-6.388,17.099,0,23.713L180.664,205.01L4.997,380.677c-6.663,6.664-6.663,17.468,0,24.132    c6.664,6.662,17.468,6.662,24.132,0l175.667-175.667l175.667,175.667c6.78,6.548,17.584,6.36,24.132-0.42    c6.387-6.614,6.387-17.099,0-23.712L228.929,205.01z"></path>
+</g>
+</g></svg>
+      </button>
+      </div>
+    </section><style>.u-dialog-section-11 .u-dialog-1 {
+  width: 935px;
+  min-height: 754px;
+  background-image: none;
+  height: auto;
+  margin: 60px calc(((100% - 1140px) / 2) + 35px) 60px auto;
+ 
+}
+
+.u-dialog-section-11 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-dialog-section-11 .u-text-1 {
+  margin: 0 293px 0 0;
+}
+
+.u-dialog-section-11 .u-text-2 {
+  font-weight: 700;
+  margin: 20px auto 0 0;
+}
+
+.u-dialog-section-11 .u-text-3 {
+  font-size: 0.875rem;
+  margin: 10px auto 0 0;
+}
+
+.u-dialog-section-11 .u-text-4 {
+  margin: 20px auto 0 0;
+}
+
+.u-dialog-section-11 .u-text-5 {
+  font-size: 0.75rem;
+  margin: 20px 20px 0 0;
+}
+
+.u-dialog-section-11 .u-icon-1 {
+  width: 16px;
+  height: 16px;
+  left: auto;
+  top: 14px;
+  position: absolute;
+  right: 14px;
+}
+
+@media (max-width: 1199px) {
+  .u-dialog-section-11 .u-dialog-1 {
+    min-height: 835px;
+    margin-right: auto;
+    margin-left: calc(((100% - 940px) / 2));
+  }
+
+  .u-dialog-section-11 .u-container-layout-1 {
+    padding-bottom: 0;
+  }
+
+  .u-dialog-section-11 .u-text-1 {
+    width: auto;
+    margin-right: 349px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-dialog-section-11 .u-dialog-1 {
+    width: 720px;
+    min-height: 911px;
+    margin-top: 62px;
+    margin-left: auto;
+    margin-bottom: 12px;
+  }
+
+  .u-dialog-section-11 .u-container-layout-1 {
+    padding-top: 29px;
+  }
+
+  .u-dialog-section-11 .u-text-1 {
+    margin-right: 360px;
+  }
+
+  .u-dialog-section-11 .u-text-5 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-dialog-section-11 .u-dialog-1 {
+    width: 540px;
+    margin-top: 124px;
+  }
+
+  .u-dialog-section-11 .u-container-layout-1 {
+    padding-top: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .u-dialog-section-11 .u-text-1 {
+    margin-right: 58px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-dialog-section-11 .u-dialog-1 {
+    width: 340px;
+    min-height: 1186px;
+    margin-top: 33px;
+    margin-bottom: 57px;
+  }
+
+  .u-dialog-section-11 .u-container-layout-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-dialog-section-11 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-dialog-section-11 .u-text-2 {
+    width: auto;
+  }
+
+  .u-dialog-section-11 .u-text-3 {
+    font-size: 0.75rem;
+    width: auto;
+    margin-right: 0;
+  }
+
+  .u-dialog-section-11 .u-text-4 {
+    width: auto;
+    margin-top: 22px;
+  }
+
+  .u-dialog-section-11 .u-text-5 {
+    font-size: 0.625rem;
+    width: auto;
+  }
+}</style>
+
+<script>
+    $(document).ready(function(){
+       
+      populateCell1(JSON.parse(receipeData1));
+      populateCell2(JSON.parse(receipeData2));
+      populateCell3(JSON.parse(receipeData3));
+      populateCell4(JSON.parse(receipeData4));
+      populateCell5(JSON.parse(receipeData5));
+      populateCell6(JSON.parse(receipeData6));
+      populateCell7(JSON.parse(receipeData7));
+      populateCell8(JSON.parse(receipeData8));
+      populateCell9(JSON.parse(receipeData9));
+      populateCell10(JSON.parse(receipeData10));
+      populateCell11(JSON.parse(receipeData11));
+      populateCell12(JSON.parse(receipeData12));
+      populateCell13(JSON.parse(receipeData13));
+      populateCell14(JSON.parse(receipeData14));
+      populateCell15(JSON.parse(receipeData15));
+      populateCell16(JSON.parse(receipeData16));
+      
+      
+        $("#btn-view-receipe-1").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData1));
+        });
+
+        $("#btn-view-receipe-2").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData2));
+        });
+
+        $("#btn-view-receipe-3").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData3));
+        });
+
+        $("#btn-view-receipe-4").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData4));
+        });
+
+        $("#btn-view-receipe-5").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData5));
+        });
+
+        $("#btn-view-receipe-6").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData6));
+        });
+
+        $("#btn-view-receipe-7").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData7));
+        });
+
+        $("#btn-view-receipe-8").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData8));
+        });
+
+        $("#btn-view-receipe-9").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData9));
+        });
+
+        $("#btn-view-receipe-10").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData10));
+        });
+
+        $("#btn-view-receipe-11").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData11));
+        });
+
+        $("#btn-view-receipe-12").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData12));
+        });
+
+        $("#btn-view-receipe-13").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData13));
+        });
+
+        $("#btn-view-receipe-14").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData14));
+        });
+
+        $("#btn-view-receipe-15").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData15));
+        });
+
+        $("#btn-view-receipe-16").on("click", function(){
+            populateReceipeDetails(JSON.parse(receipeData16));
+        });
+    });
+
+
+</script>
+</body></html>
